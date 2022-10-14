@@ -7,7 +7,7 @@
         v-if="isOpen"
         :style="{width: width + '%', height: height + '%', rotate: deg + 'deg'}"
       > 
-      <p v-else="!isOpen">Image is closed</p>
+      <p v-else>Image is closed</p>
     </div>
     <div class="flex-grow-1 d-flex align-items-start flex-column ms-3">
       <p class="h4 mt-3 fw-bold">Sizes</p>
